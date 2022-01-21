@@ -1,0 +1,31 @@
+{
+  "name": "kyomi-app",
+  "version": "0.0.1",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "rollup -c",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "gh-publish": "electron-builder -p always"
+  },
+  "repository": "https://github.com/KyomiTeam/kyomi-app-git.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Kyomi",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  },
+  "dependencies": {
+    "electron-builder": "^22.14.5",
+    "electron-log": "^4.4.5",
+    "electron-updater": "^4.6.1",
+    "update-electron-app": "^2.0.1"
+  }
+}
