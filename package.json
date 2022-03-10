@@ -20,7 +20,7 @@
   ],
   "author": "Kyomi",
   "devDependencies": {
-    "electron": "^16.0.7"
+    "electron": "^17.1.2"
   },
   "dependencies": {
     "electron-builder": "^22.14.5",
